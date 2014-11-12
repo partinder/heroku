@@ -1,0 +1,11 @@
+<article class="socialmedia">
+	<span class="title">Join the movemnet : </span>
+
+	<ul class="group">
+		<% appdata.social.forEach(function (item){ %>
+
+			<li style="float:left; margin-right:10px">  <a href="<%= item.url %>" alt="<%= item.shortname %> "><img class="icon" src="<%= item.img %>" />  </a>  </li>		
+		<% }) %>
+
+	</ul>
+</article>

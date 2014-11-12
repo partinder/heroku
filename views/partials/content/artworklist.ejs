@@ -1,0 +1,11 @@
+<article class="artworkondisplay">
+	<h1> Artwork on Display
+	</h1><div class="pixgrid">
+	<% if(artwork.length > 0) { %>
+		<% for(var i = 0; i < artwork.length; i++) { %>
+			<img src="/images/artwork/<%= artwork[i] %>"/>
+	<% } %>
+	<% } %>
+		
+	</div>
+</article>
